@@ -1,0 +1,41 @@
+*{
+   font-family:"arial"; 
+}
+body{ margin:auto;
+}
+header{width:100%;
+       display:flex;
+       justify-content:space-between;
+       height:10%;
+       }
+header img{width:4%;}
+header span{color:rgb(171, 20, 48);
+             font-size:15pt;}
+header input{width:20%;}
+.imagem-principal{width:100%;
+                  height:40%;
+                  position:relative;}
+.imagem-principal figure,.imagem-principal img{ width:100%;   
+                                                margin:auto;} 
+.imagem-principal figcaption{position:absolute;
+                              width:65%;
+                              height:40%;
+                              background-color: #fff;
+                              top:40%;
+                             left:20%}
+.formularios-partida-chegada{
+                            padding:15px;
+                            display:flex;
+                            justify-content: space-evenly;
+                            margin:auto;
+                            
+                            }
+.nav-opcao-voo ul{
+           list-style-type: none;
+            display:flex;
+            justify-content: space-evenly;
+            padding:10px;
+            background-color:black;
+            color: #fff;
+               }
+               
